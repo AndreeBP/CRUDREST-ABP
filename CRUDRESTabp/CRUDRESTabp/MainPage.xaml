@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDRESTabp.MainPage"
+             Title="Lista de Clientes">
+
+    <StackLayout Margin="10,20,10,10">
+        <ListView x:Name="MyListView" HasUnevenRows="True" ItemSelected="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame  CornerRadius="20"  HasShadow="True"    Margin="3">
+
+                            <StackLayout
+                                    Orientation="Vertical">
+                                <Grid
+                                    VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label 
+                                            Grid.Row="0"
+                                            Grid.Column="0"
+                                            Text="Nombre de cliente: "
+                                            FontAttributes="Bold"/>
+
+                                    <Label
+                                            Grid.Row="0"
+                                            Grid.Column="1"
+                                            Text="{Binding Nombre}"/>
+
+                                    <Label
+                                            Grid.Row="1"
+                                            Grid.Column="0"
+                                            Text="Descripcion "
+                                            FontAttributes="Bold"/>
+
+                                    <Label 
+                                            Grid.Row="1"
+                                            Grid.Column="1"
+                                            Text="{Binding Descripcion}"/>
+
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Grid.Row="0" 
+                Text="Registrar Cliente" 
+                Clicked="OnAddItemClicked" 
+                FontAttributes="Bold"
+                BackgroundColor="#0000ff" 
+                BorderRadius="50" 
+                TextColor="White" 
+                />
+    </StackLayout>
+
+</ContentPage>

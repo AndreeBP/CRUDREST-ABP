@@ -1,0 +1,166 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "CRUDRESTabp/1.0.0": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14",
+          "Microsoft.Net.Http": "2.2.20",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.3",
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.6.0.1141"
+        },
+        "runtime": {
+          "CRUDRESTabp.dll": {}
+        }
+      },
+      "Microsoft.Bcl/1.1.8": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {},
+      "Microsoft.Net.Http/2.2.20": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.8",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {
+            "assemblyVersion": "2.2.20.0",
+            "fileVersion": "2.2.20.0"
+          },
+          "lib/net45/System.Net.Http.Primitives.dll": {
+            "assemblyVersion": "4.2.20.0",
+            "fileVersion": "4.2.20.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.5.3.2": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/4.6.0.1141": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.6.0.555"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.6.0.555"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.6.0.555"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CRUDRESTabp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl/1.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gM+PUzd8ONxJpcPJeNppCJPklDhDuPUMVQkxvK4fe0rd9WyqBNPh4+UFx3Uv8zuG4C1Gapu1c25sfotE7TQtig==",
+      "path": "microsoft.bcl/1.1.8",
+      "hashPath": "microsoft.bcl.1.1.8.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "path": "microsoft.bcl.build/1.0.14",
+      "hashPath": "microsoft.bcl.build.1.0.14.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4hr/x/ZQouc0A1gRS0xjIFT06P5rPrlB4Cy/h9w4ofIfBMaEivBAdsWP8ugRd3VOvo5dg5zn4SXo9HS+GuUnuA==",
+      "path": "microsoft.net.http/2.2.20",
+      "hashPath": "microsoft.net.http.2.2.20.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
+      "path": "xamarin.essentials/1.5.3.2",
+      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
+    },
+    "Xamarin.Forms/4.6.0.1141": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SltuAt48A9qfC7pEo9zdQ5/IExdLkGttVAtv9bZw4IWA1SBbRpR2xbeduvowW9DQ/PjJD9HM7aSzxt0Spkwrkw==",
+      "path": "xamarin.forms/4.6.0.1141",
+      "hashPath": "xamarin.forms.4.6.0.1141.nupkg.sha512"
+    }
+  }
+}

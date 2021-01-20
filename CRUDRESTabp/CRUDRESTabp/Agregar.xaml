@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDRESTabp.Agregar"
+             Title="Agregar Cliente">
+    <StackLayout Margin="20">
+        <Label Text="Nombre" />
+        <Entry x:Name="nombre"  
+               Placeholder=""/>
+
+        <Label Text="Descripcion" />
+        <Entry x:Name="descripcion"  
+               Placeholder="" />
+
+        <Button Grid.Row="0" 
+                Clicked="OnSaveButtonClicked"
+                Text="Registrar"  
+                BorderWidth="1" 
+                FontAttributes="Bold" 
+                BackgroundColor="#0000ff"
+                BorderRadius="50" 
+                TextColor="White" 
+                />
+        
+        <Button Grid.Row="0" 
+                Text="Cancelar" 
+                Clicked="OnCancelButtonClicked"
+                BorderWidth="1" 
+                FontAttributes="Bold" 
+                BackgroundColor="#ff0000"
+                BorderRadius="50"
+                TextColor="White" 
+                 
+                />
+
+    </StackLayout>
+</ContentPage>

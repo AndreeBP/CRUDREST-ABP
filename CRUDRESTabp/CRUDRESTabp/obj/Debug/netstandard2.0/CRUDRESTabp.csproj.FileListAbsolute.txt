@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\bin\Debug\netstandard2.0\CRUDRESTabp.deps.json
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\bin\Debug\netstandard2.0\CRUDRESTabp.dll
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\CRUDRESTabp.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\CRUDRESTabp.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\CRUDRESTabp.AssemblyInfo.cs
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\Agregar.xaml.g.cs
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\EditaryEliminar.xaml.g.cs
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\CRUDRESTabp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\bin\Debug\netstandard2.0\ref\CRUDRESTabp.dll
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\bin\Debug\netstandard2.0\CRUDRESTabp.pdb
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\CRUDRESTabp.dll
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\ref\CRUDRESTabp.dll
+C:\Users\User\source\repos\CRUDRESTabp\CRUDRESTabp\CRUDRESTabp\obj\Debug\netstandard2.0\CRUDRESTabp.pdb
